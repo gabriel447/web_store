@@ -1,0 +1,259 @@
+/*Reset */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+	font-family: Arial, Tahoma, sans-serif;
+}
+
+/*Menu*/
+
+nav.menu  {
+	/*background-color: #B22222;*/
+	background-color: black;
+	padding:12px;
+
+}
+nav.menu li {
+	display: inline-block;
+}
+
+nav.menu a {
+	padding: 20px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+
+/*Logo*/
+
+header.top {
+	float: right;
+	font-weight: bold;
+
+}
+
+header.top a {
+	padding: 22px;
+	padding-top: 15px;
+	color: white;
+	text-decoration: none;
+}
+
+div.logo  {
+	padding-top: 10px;
+}
+
+/*Banner*/
+
+div.banner {
+	padding: 100px 0;
+	background-image: url('../img/home3.jpg');
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	min-height: 400px;
+}
+
+div.banner h2 {
+ 	color: black;
+ 	font-size: 120px;
+ 	text-align: center;
+ 	margin: 30px 0;
+}
+
+div.banner p {
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+
+/*marcas*/
+
+div.top h2 {
+	color: #4F4F4F;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 40px;
+	font-family: sans-serif;
+}
+
+div.marcas {
+	display: flex;
+	justify-content: space-evenly; 
+	padding-bottom: 40px;
+}
+
+div.marcas img{
+	width: 100px;
+	height: 100px;
+	padding: 40px;
+}
+
+/*ofertas*/
+
+section.background {
+	background-color: #D3D3D3;
+}
+
+div.mid h2 {
+	text-align: center;
+	padding: 60px;
+	font-size: 40px;
+	font-family: sans-serif;
+	color: #4F4F4F;
+}
+
+div.ofertas {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+div.ofertas h4 {
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+	background-color: #B22222;
+}
+
+div.ofertas img {
+	width: 300px ;
+	height: 300px ;
+}
+
+div.ofertas h3 {
+	text-align: center;
+	padding: 10px;
+	font-size: 40px;
+	color: #B22222;
+	padding-bottom: 80px;
+}
+
+/*contato*/
+
+div.contato {
+	text-align: center;
+	padding: 60px;
+	color: #363636;
+}
+
+div.contato h2{
+	padding-left: 20px;
+}
+
+div.contato li {
+	list-style-type: none;
+}
+
+div.contato a {
+	background-color: #228B22;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	border-radius: 20px;
+}
+
+div.contato img {
+	width: 500px;
+	height: 300px;
+	padding-bottom: 60px;
+}
+
+/*Rodapé*/
+
+.end  {
+	text-align: center;
+	background-color: #000000;
+	padding-top: 12px;
+	color: white;
+	padding-bottom: 10px;
+}
+
+/* PRODUTOS1 */
+div.produtos1 {
+	padding-top: 40px;
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+}
+
+div.produtos1 img {
+	width: 300px ;
+	height: 300px ;
+}
+
+div.produtos1 h4{
+	padding: 20px;
+	font-size: 20px;
+	color: #B22222;
+}
+
+div.produtos1 h3{
+	font-size: 20px;
+	color: black;
+	padding-bottom: 40px;
+}
+
+/* PRODUTOS2 */
+div.produtos2 {
+	padding-top: 40px;
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+}
+
+div.produtos2 img {
+	width: 300px ;
+	height: 300px ;
+}
+
+div.produtos2 h4{
+	padding: 20px;
+	font-size: 20px;
+	color: #B22222;
+}
+
+div.produtos2 h3{
+	font-size: 20px;
+	color: black;
+	padding-bottom: 40px;
+}
+
+/* PRODUTOS3 */
+div.produtos3 {
+	padding-top: 40px;
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+div.produtos3 img {
+	width: 300px ;
+	height: 300px ;
+}
+
+div.produtos3 h4{
+	padding: 20px;
+	font-size: 20px;
+	color: #B22222;
+}
+
+div.produtos3 h3{
+	font-size: 20px;
+	color: black;
+	padding-bottom: 40px;
+}
+
+
+
+
